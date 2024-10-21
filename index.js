@@ -4,8 +4,8 @@ const axios = require('axios');
 require('dotenv').config();
 
 
-// Function to check if a number is odd using OpenAI ChatGPT
-async function isOdd(number) {
+// Function to check if a number is even using OpenAI ChatGPT
+async function isEven(number) {
     try {
         // Construct the request payload
         const requestData = {
@@ -27,9 +27,9 @@ async function isOdd(number) {
         const answer = choices[0].message.content.trim().toLowerCase(); // Adjust based on API response structure
 
         // Determine if the response indicates odd or even
-        if (answer.includes('odd')) {
+        if (answer.includes('even')) {
             return true;
-        } else if (answer.includes('even')) {
+        } else if (answer.includes('odd')) {
             return false;
         } else {
             throw new Error('Unable to determine if number is odd or even.');
@@ -40,5 +40,5 @@ async function isOdd(number) {
     }
 }
 
-module.exports = isOdd;
+module.exports = isEven;
 

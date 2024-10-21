@@ -1,7 +1,7 @@
 {
-  "name": "is-odd-ai",
-  "version": "1.0.2",
-  "description": "Why check if something is odd simply, when you can do it with ✨AI✨",
+  "name": "is-even-ai",
+  "version": "1.0.0",
+  "description": "Why check if something is even simply, when you can do it with ✨AI✨ - forked from rhettlunn",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -17,10 +17,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rhettlunn/is-odd-ai.git"
+    "url": "https://github.com/yangml103/is-even-ai.git"
   },
   "bugs": {
-    "url": "https://github.com/rhettlunn/is-odd-ai/issues"
+    "url": "https://github.com/yangml103/is-even-ai/issues"
   },
-  "homepage": "https://github.com/rhettlunn/is-odd-ai#readme"
+  "homepage": "https://github.com/yangml103/is-even-ai#readme"
 }
